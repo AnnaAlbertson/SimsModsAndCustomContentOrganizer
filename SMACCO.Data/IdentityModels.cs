@@ -29,5 +29,14 @@ namespace SMACCO.Data
         {
             return new ApplicationDbContext();
         }
+
+        // DbSets
+        // public DbSet<Entity> Entities { get; set; }
+
+        // public DbSet<Game> Games { get; set; }
+        // public DbSet<Pack> Packs { get; set; }
+        // public DbSet<Download> Downloads { get; set; }
+        // public DbSet<Mod> Mods { get; set; }
+        // public DbSet<CustomContent> CustomContents { get; set; }
     }
 }
