@@ -1,0 +1,16 @@
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\SMACCO.Models.dll.config
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\SMACCO.Models.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\SMACCO.Models.pdb
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\EntityFramework.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\EntityFramework.xml
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\obj\Debug\SMACCO.Models.csprojAssemblyReference.cache
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\obj\Debug\SMACCO.Models.csproj.CoreCompileInputs.cache
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\obj\Debug\SMACCO.Models.csproj.CopyComplete
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\obj\Debug\SMACCO.Models.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Models\obj\Debug\SMACCO.Models.pdb

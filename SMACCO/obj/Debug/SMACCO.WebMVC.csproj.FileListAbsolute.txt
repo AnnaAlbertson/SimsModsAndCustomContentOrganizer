@@ -1,0 +1,2 @@
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO\obj\Debug\SMACCO.WebMVC.csprojAssemblyReference.cache
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO\obj\Debug\SMACCO.WebMVC.csproj.CoreCompileInputs.cache
