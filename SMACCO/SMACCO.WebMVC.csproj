@@ -251,6 +251,20 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SMACCO.Data\SMACCO.Data.csproj">
+      <Project>{6240b55e-5f14-4d69-b22b-c169807557f4}</Project>
+      <Name>SMACCO.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMACCO.Models\SMACCO.Models.csproj">
+      <Project>{44093226-1ab7-49e0-a145-4ecd3c4bd2fe}</Project>
+      <Name>SMACCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMACCO.Services\SMACCO.Services.csproj">
+      <Project>{372aa5f3-1793-4ad1-b7d2-13b5f33f52a3}</Project>
+      <Name>SMACCO.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
