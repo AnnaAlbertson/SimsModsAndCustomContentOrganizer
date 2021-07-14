@@ -8,5 +8,10 @@ namespace SMACCO.Models.PackModels
 {
     public class PackDetails
     {
+        public int PackID { get; set; }
+        public string PackName { get; set; }
+        public string Description { get; set; }
+        public bool IsOwned { get; set; }
+        public string GameName { get; set; }
     }
 }
