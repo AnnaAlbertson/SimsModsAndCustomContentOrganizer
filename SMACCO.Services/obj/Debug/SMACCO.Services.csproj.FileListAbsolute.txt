@@ -1,0 +1,16 @@
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\SMACCO.Services.dll.config
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\SMACCO.Services.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\SMACCO.Services.pdb
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\EntityFramework.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\EntityFramework.xml
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\obj\Debug\SMACCO.Services.csprojAssemblyReference.cache
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\obj\Debug\SMACCO.Services.csproj.CoreCompileInputs.cache
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\obj\Debug\SMACCO.Services.csproj.CopyComplete
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\obj\Debug\SMACCO.Services.dll
+C:\NewElevenFiftyProjects\FinalProjects\SimsDownloadOrganizer\SMACCO.MVC\SMACCO.Services\obj\Debug\SMACCO.Services.pdb
