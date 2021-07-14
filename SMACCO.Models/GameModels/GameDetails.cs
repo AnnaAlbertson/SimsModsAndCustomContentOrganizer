@@ -20,6 +20,7 @@ namespace SMACCO.Models.GameModels
         [Display(Name = "Last Patch Update")]
         public DateTimeOffset LastPatchUpdate { get; set; }
 
-
+        //public List<PackModels.PackListItem> ListOfPacks { get; set; }
+        //public List<DownloadModels.DownloadListItem> ListOfDownloads { get; set; }
     }
 }
