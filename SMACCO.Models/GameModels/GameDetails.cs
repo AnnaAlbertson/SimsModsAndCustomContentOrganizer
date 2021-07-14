@@ -19,5 +19,7 @@ namespace SMACCO.Models.GameModels
 
         [Display(Name = "Last Patch Update")]
         public DateTimeOffset LastPatchUpdate { get; set; }
+
+
     }
 }
