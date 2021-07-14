@@ -54,6 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\CustomContent.cs" />
+    <Compile Include="Entities\Download.cs" />
+    <Compile Include="Entities\Game.cs" />
+    <Compile Include="Entities\Mod.cs" />
+    <Compile Include="Entities\Pack.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
