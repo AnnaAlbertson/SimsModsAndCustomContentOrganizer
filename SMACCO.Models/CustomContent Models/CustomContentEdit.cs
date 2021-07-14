@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMACCO.Models.DownloadModels
+namespace SMACCO.Models.CustomContent_Models
 {
-    public class DownloadList
+    public class CustomContentEdit
     {
     }
 }

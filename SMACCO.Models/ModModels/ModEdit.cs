@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SMACCO.Models.ModModels
 {
-    public class ModList
+    public class ModEdit
     {
     }
 }

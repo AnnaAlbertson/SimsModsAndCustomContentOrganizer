@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMACCO.Models.GameModels
+namespace SMACCO.Models.PackModels
 {
-    public class GameList
+    public class PackListItem
     {
     }
 }

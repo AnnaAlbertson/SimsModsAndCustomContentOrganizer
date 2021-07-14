@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMACCO.Models.PackModels
+namespace SMACCO.Models.ModModels
 {
-    public class PackList
+    public class ModListItem
     {
     }
 }

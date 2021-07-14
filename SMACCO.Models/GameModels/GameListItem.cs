@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMACCO.Models.CustomContent_Models
+namespace SMACCO.Models.GameModels
 {
-    public class CustomContentList
+    public class GameListItem
     {
     }
 }
