@@ -30,3 +30,6 @@ C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.csproj.CoreCompileInputs.cach
 C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.csproj.CopyComplete
 C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.dll
 C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.pdb
+C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.InitialCreate.resources
+C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.csproj.GenerateResource.cache
+C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.DownloadUpdateMigration.resources

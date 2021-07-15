@@ -38,7 +38,6 @@ namespace SMACCO.Data.Entities
         [ForeignKey(nameof(Games))]
         public int GameID { get; set; }
         public virtual Game Games { get; set; }
-
         public virtual Mod Mod { get; set; }
         public virtual CustomContent CustomContent { get; set; }
         ICollection<Pack> ListOfPacks {get; set;}
