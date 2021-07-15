@@ -10,8 +10,9 @@ namespace SMACCO.Data.Entities
 {
     public class CustomContent
     {
-        [Key]
+        [ForeignKey(nameof(Download))]
         public int CustomContentID { get; set; }
+        public virtual Download Download { get; set; }
 
         [Required]
         [Display(Name = "Is this a Buy Mode item?")]
@@ -23,10 +24,6 @@ namespace SMACCO.Data.Entities
 
         public string Category { get; set; }
         public string Subcategory { get; set; }
-
-        [ForeignKey(nameof(Downloads))]
-        public int DownloadID { get; set; }
-        public virtual Download Downloads { get; set; }
 
         // Picture of Content
     }

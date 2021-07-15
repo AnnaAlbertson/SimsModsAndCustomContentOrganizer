@@ -11,7 +11,7 @@ namespace SMACCO.Data.Entities
     public class Mod
     {
         [ForeignKey(nameof(Download))]
-        public int DownloadID { get; set; }
+        public int ModID { get; set; }
         public virtual Download Download { get; set; }
 
         [MaxLength(50, ErrorMessage = "You have reached the max number of characters.")]
