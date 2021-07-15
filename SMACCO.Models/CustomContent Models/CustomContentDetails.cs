@@ -8,5 +8,14 @@ namespace SMACCO.Models.CustomContent_Models
 {
     public class CustomContentDetails
     {
+        public int CustomContentID { get; set; }
+        public string DownloadName { get; set; }
+        public string CreatorName { get; set; }
+        public bool IsBuyMode { get; set; }
+        public bool IsCreateASim { get; set; }
+        public string Category { get; set; }
+        public string Subcategory { get; set; }
+        
+        //public string DownloadURL {get;set;}
     }
 }
