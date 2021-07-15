@@ -55,10 +55,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CustomContentService.cs" />
+    <Compile Include="Services\DownloadService.cs" />
+    <Compile Include="Services\GameService.cs" />
+    <Compile Include="Services\ModService.cs" />
+    <Compile Include="Services\PackService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SMACCO.Data\SMACCO.Data.csproj">
+      <Project>{6240b55e-5f14-4d69-b22b-c169807557f4}</Project>
+      <Name>SMACCO.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMACCO.Models\SMACCO.Models.csproj">
+      <Project>{44093226-1ab7-49e0-a145-4ecd3c4bd2fe}</Project>
+      <Name>SMACCO.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
