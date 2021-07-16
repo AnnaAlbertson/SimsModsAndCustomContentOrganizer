@@ -26,6 +26,7 @@ namespace SMACCO.Services.Services
                     //OwnerID or AdminID
                     PackName = model.PackName,
                     Description = model.PackName,
+                    IsOwned = model.IsOwned,
                     GameID = model.GameID
                 };
             using (var sdx = new ApplicationDbContext())
@@ -35,27 +36,26 @@ namespace SMACCO.Services.Services
             }
         }
 
-        //public IEnumerable<GameListItem> GetGames()
-        //{
-        //    using (var sdx = new ApplicationDbContext())
-        //    {
-        //        var query =
-        //            sdx
-        //            .Games
-        //            .Select(
-        //                e =>
-        //                new GameListItem
-        //                {
-        //                    GameID = e.GameID,
-        //                    GameName = e.GameName,
-        //                    IsOwned = e.IsOwned,
-        //                    LastPatchUpdate = e.LastPatchUpdate
-        //                    //NumberOfDownloads = 
-        //                }
-        //                );
-        //        return query.ToArray();
-        //    }
-        //}
+        public IEnumerable<PackListItem> GetPacks()
+        {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var query =
+                    sdx
+                    .Packs
+                    .Select(
+                        e =>
+                        new PackListItem
+                        {
+                            PackName = e.PackName,
+                            Description = e.Description,
+                            IsOwned = e.IsOwned,
+                            GameName = e.Games.GameName
+                        }
+                        );
+                return query.ToArray();
+            }
+        }
 
         //public GameDetails GetGameByID(int id)
         //{
