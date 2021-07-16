@@ -87,24 +87,27 @@ namespace SMACCO.Services.Services
                     .Single(e => e.PackID == model.PackID); //&&OwnerID == _userID
 
                 entity.PackName = model.PackName;
+                entity.Description = model.Description;
+                entity.IsOwned = model.IsOwned;
+                entity.GameID = model.GameID;
 
                 return sdx.SaveChanges() == 1;
             }
         }
 
-        //public bool DeletePack(int packID)
-        //{
-        //    using (var sdx = new ApplicationDbContext())
-        //    {
-        //        var entity =
-        //            sdx
-        //            .Packs
-        //            .Single(e => e.PackID == packID); //OwnerID == _userID
+        public bool DeletePack(int packID)
+        {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var entity =
+                    sdx
+                    .Packs
+                    .Single(e => e.PackID == packID); //OwnerID == _userID
 
-        //        sdx.Packs.Remove(entity);
+                sdx.Packs.Remove(entity);
 
-        //        return sdx.SaveChanges() == 1;
-        //    }
-        //}
+                return sdx.SaveChanges() == 1;
+            }
+        }
     }
 }
