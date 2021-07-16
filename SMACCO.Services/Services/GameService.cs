@@ -78,12 +78,34 @@ namespace SMACCO.Services.Services
 
         public bool UpdateGame(GameEdit model)
         {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var entity =
+                    sdx
+                    .Games
+                    .Single(e => e.GameID == model.GameID); //&&OwnerID == _userID
+                
+                entity.GameName = model.GameName;
+                entity.IsOwned = model.IsOwned;
+                entity.LastPatchUpdate = model.LastPatchUpdate;
 
+                return sdx.SaveChanges() == 1;
+            }
         }
 
         public bool DeleteGame(int gameID)
         {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var entity =
+                    sdx
+                    .Games
+                    .Single(e => e.GameID == gameID); //OwnerID == _userID
 
+                sdx.Games.Remove(entity);
+
+                return sdx.SaveChanges() == 1;
+            }
         }
     }
 }
