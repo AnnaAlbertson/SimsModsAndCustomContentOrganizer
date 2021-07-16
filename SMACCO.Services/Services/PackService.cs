@@ -57,41 +57,40 @@ namespace SMACCO.Services.Services
             }
         }
 
-        //public GameDetails GetGameByID(int id)
-        //{
-        //    using (var sdx = new ApplicationDbContext())
-        //    {
-        //        var entity =
-        //            sdx
-        //            .Games
-        //            .Single(e => e.GameID == id);  //&& OwnerID == _userID)
-        //        return
-        //            new GameDetails
-        //            {
-        //                GameID = entity.GameID,
-        //                GameName = entity.GameName,
-        //                IsOwned = entity.IsOwned,
-        //                LastPatchUpdate = entity.LastPatchUpdate
-        //            };
-        //    }
-        //}
+        public PackDetails GetPackByID(int id)
+        {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var entity =
+                    sdx
+                    .Packs
+                    .Single(e => e.PackID == id);  //&& OwnerID == _userID)
+                return
+                    new PackDetails
+                    {
+                        PackID = entity.PackID,
+                        PackName = entity.PackName,
+                        Description = entity.Description,
+                        IsOwned = entity.IsOwned,
+                        GameName = entity.Games.GameName
+                    };
+            }
+        }
 
-        //public bool UpdateGame(GameEdit model)
-        //{
-        //    using (var sdx = new ApplicationDbContext())
-        //    {
-        //        var entity =
-        //            sdx
-        //            .Games
-        //            .Single(e => e.GameID == model.GameID); //&&OwnerID == _userID
+        public bool UpdatePack(PackEdit model)
+        {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var entity =
+                    sdx
+                    .Packs
+                    .Single(e => e.PackID == model.PackID); //&&OwnerID == _userID
 
-        //        entity.GameName = model.GameName;
-        //        entity.IsOwned = model.IsOwned;
-        //        entity.LastPatchUpdate = model.LastPatchUpdate;
+                entity.PackName = model.PackName;
 
-        //        return sdx.SaveChanges() == 1;
-        //    }
-        //}
+                return sdx.SaveChanges() == 1;
+            }
+        }
 
         //public bool DeleteGame(int gameID)
         //{
