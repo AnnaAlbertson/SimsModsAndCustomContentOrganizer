@@ -54,11 +54,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomContent Models\CustomContentCreate.cs" />
+    <Compile Include="CustomContent Models\CustomContentDetails.cs" />
+    <Compile Include="CustomContent Models\CustomContentEdit.cs" />
+    <Compile Include="CustomContent Models\CustomContentListItem.cs" />
+    <Compile Include="DownloadModels\DownloadCreate.cs" />
+    <Compile Include="DownloadModels\DownloadDetails.cs" />
+    <Compile Include="DownloadModels\DownloadEdit.cs" />
+    <Compile Include="DownloadModels\DownloadListItem.cs" />
+    <Compile Include="GameModels\GameCreate.cs" />
+    <Compile Include="GameModels\GameDetails.cs" />
+    <Compile Include="GameModels\GameEdit.cs" />
+    <Compile Include="GameModels\GameListItem.cs" />
+    <Compile Include="ModModels\ModCreate.cs" />
+    <Compile Include="ModModels\ModDetails.cs" />
+    <Compile Include="ModModels\ModEdit.cs" />
+    <Compile Include="ModModels\ModListItem.cs" />
+    <Compile Include="PackModels\PackCreate.cs" />
+    <Compile Include="PackModels\PackDetails.cs" />
+    <Compile Include="PackModels\PackEdit.cs" />
+    <Compile Include="PackModels\PackListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
