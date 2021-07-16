@@ -92,16 +92,16 @@ namespace SMACCO.Services.Services
             }
         }
 
-        //public bool DeleteGame(int gameID)
+        //public bool DeletePack(int packID)
         //{
         //    using (var sdx = new ApplicationDbContext())
         //    {
         //        var entity =
         //            sdx
-        //            .Games
-        //            .Single(e => e.GameID == gameID); //OwnerID == _userID
+        //            .Packs
+        //            .Single(e => e.PackID == packID); //OwnerID == _userID
 
-        //        sdx.Games.Remove(entity);
+        //        sdx.Packs.Remove(entity);
 
         //        return sdx.SaveChanges() == 1;
         //    }
