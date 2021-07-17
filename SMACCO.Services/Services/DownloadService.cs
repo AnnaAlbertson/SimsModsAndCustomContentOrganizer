@@ -39,27 +39,29 @@ namespace SMACCO.Services.Services
             }
         }
 
-        //public IEnumerable<GameListItem> GetGames()
-        //{
-        //    using (var sdx = new ApplicationDbContext())
-        //    {
-        //        var query =
-        //            sdx
-        //            .Games
-        //            .Select(
-        //                e =>
-        //                new GameListItem
-        //                {
-        //                    GameID = e.GameID,
-        //                    GameName = e.GameName,
-        //                    IsOwned = e.IsOwned,
-        //                    LastPatchUpdate = e.LastPatchUpdate
-        //                    //NumberOfDownloads = 
-        //                }
-        //                );
-        //        return query.ToArray();
-        //    }
-        //}
+        public IEnumerable<DownloadListItem> GetDownloads()
+        {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var query =
+                    sdx
+                    .Downloads
+                    .Select(
+                        e =>
+                        new DownloadListItem
+                        {
+                            DownloadID = e.DownloadID,
+                            DownloadName = e.DownloadName,
+                            CreatorName = e.CreatorName,
+                            LastDownloaded = e.LastDownloaded,
+                            IsMod = e.IsMod,
+                            IsCustomContent = e.IsCustomContent,
+                            GameName = e.Games.GameName
+                        }
+                        );
+                return query.ToArray();
+            }
+        }
 
         //public GameDetails GetGameByID(int id)
         //{
