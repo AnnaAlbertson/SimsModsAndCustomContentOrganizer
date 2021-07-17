@@ -74,7 +74,6 @@ namespace SMACCO.Services.Services
                 return
                     new DownloadDetails
                     {
-                        //GameID = entity.GameID,
                         DownloadID = entity.DownloadID,
                         DownloadName = entity.DownloadName,
                         CreatorName = entity.CreatorName,
@@ -109,19 +108,19 @@ namespace SMACCO.Services.Services
             }
         }
 
-        //public bool DeleteGame(int gameID)
-        //{
-        //    using (var sdx = new ApplicationDbContext())
-        //    {
-        //        var entity =
-        //            sdx
-        //            .Games
-        //            .Single(e => e.GameID == gameID); //OwnerID == _userID
+        public bool DeleteDownload(int downloadID)
+        {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var entity =
+                    sdx
+                    .Downloads
+                    .Single(e => e.DownloadID == downloadID); //OwnerID == _userID
 
-        //        sdx.Games.Remove(entity);
+                sdx.Downloads.Remove(entity);
 
-        //        return sdx.SaveChanges() == 1;
-        //    }
-        //}
+                return sdx.SaveChanges() == 1;
+            }
+        }
     }
 }
