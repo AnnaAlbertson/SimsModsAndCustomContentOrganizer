@@ -8,6 +8,7 @@ namespace SMACCO.Models.DownloadModels
 {
     public class DownloadEdit
     {
+        public int DownloadID { get; set; }
         public string DownloadName { get; set; }
         public string CreatorName { get; set; }
         public string DownloadURL { get; set; }

@@ -70,7 +70,7 @@ namespace SMACCO.Services.Services
                 var entity =
                     sdx
                     .Downloads
-                    .Single(e => e.GameID == id);  //&& OwnerID == _userID)
+                    .Single(e => e.DownloadID == id);  //&& OwnerID == _userID)
                 return
                     new DownloadDetails
                     {
@@ -87,22 +87,27 @@ namespace SMACCO.Services.Services
             }
         }
 
-        //public bool UpdateGame(GameEdit model)
-        //{
-        //    using (var sdx = new ApplicationDbContext())
-        //    {
-        //        var entity =
-        //            sdx
-        //            .Games
-        //            .Single(e => e.GameID == model.GameID); //&&OwnerID == _userID
+        public bool UpdateDownload(DownloadEdit model)
+        {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var entity =
+                    sdx
+                    .Downloads
+                    .Single(e => e.DownloadID == model.DownloadID); //&&OwnerID == _userID
 
-        //        entity.GameName = model.GameName;
-        //        entity.IsOwned = model.IsOwned;
-        //        entity.LastPatchUpdate = model.LastPatchUpdate;
+                //entity.GameName = model.GameName;
+                entity.DownloadName = model.DownloadName;
+                entity.CreatorName = model.CreatorName;
+                entity.DownloadURL = model.DownloadURL;
+                entity.IsMod = model.IsMod;
+                entity.IsCustomContent = model.IsCustomContent;
+                entity.LastDownloaded = model.LastDownloaded;
+                entity.GameID = model.GameID;
 
-        //        return sdx.SaveChanges() == 1;
-        //    }
-        //}
+                return sdx.SaveChanges() == 1;
+            }
+        }
 
         //public bool DeleteGame(int gameID)
         //{
