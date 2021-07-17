@@ -63,24 +63,29 @@ namespace SMACCO.Services.Services
             }
         }
 
-        //public GameDetails GetGameByID(int id)
-        //{
-        //    using (var sdx = new ApplicationDbContext())
-        //    {
-        //        var entity =
-        //            sdx
-        //            .Games
-        //            .Single(e => e.GameID == id);  //&& OwnerID == _userID)
-        //        return
-        //            new GameDetails
-        //            {
-        //                GameID = entity.GameID,
-        //                GameName = entity.GameName,
-        //                IsOwned = entity.IsOwned,
-        //                LastPatchUpdate = entity.LastPatchUpdate
-        //            };
-        //    }
-        //}
+        public DownloadDetails GetDownloadByID(int id)
+        {
+            using (var sdx = new ApplicationDbContext())
+            {
+                var entity =
+                    sdx
+                    .Downloads
+                    .Single(e => e.GameID == id);  //&& OwnerID == _userID)
+                return
+                    new DownloadDetails
+                    {
+                        //GameID = entity.GameID,
+                        DownloadID = entity.DownloadID,
+                        DownloadName = entity.DownloadName,
+                        CreatorName = entity.CreatorName,
+                        DownloadURL = entity.DownloadURL,
+                        IsMod = entity.IsMod,
+                        IsCustomContent = entity.IsCustomContent,
+                        LastDownloaded = entity.LastDownloaded,
+                        GameName = entity.Games.GameName
+                    };
+            }
+        }
 
         //public bool UpdateGame(GameEdit model)
         //{
