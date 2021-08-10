@@ -15,5 +15,11 @@ namespace SMACCO.Controllers.CustomDataControllers
             var model = new GameListItem[0];
             return View(model);
         }
+
+        // Get: Game/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }
