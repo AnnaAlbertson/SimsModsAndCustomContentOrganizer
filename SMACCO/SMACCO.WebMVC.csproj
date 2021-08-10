@@ -239,6 +239,7 @@
     <Content Include="Views\Download\Index.cshtml" />
     <Content Include="Views\Download\Create.cshtml" />
     <Content Include="Views\Game\Index.cshtml" />
+    <Content Include="Views\Game\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
