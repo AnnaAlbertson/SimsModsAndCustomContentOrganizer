@@ -17,6 +17,9 @@ namespace SMACCO.Data.Entities
         [Display(Name = "Name of Download")]
         public string DownloadName { get; set; }
 
+        [Required]
+        public Guid OwnerID { get; set; }
+
         [Display(Name = "Name of Creator")]
         public string CreatorName { get; set; }
 

@@ -15,6 +15,9 @@ namespace SMACCO.Data.Entities
         public virtual Download Download { get; set; }
 
         [Required]
+        public Guid OwnerID { get; set; }
+
+        [Required]
         [Display(Name = "Is this a Buy Mode item?")]
         public bool IsBuyMode { get; set; }
 

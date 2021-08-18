@@ -14,6 +14,9 @@ namespace SMACCO.Data.Entities
         public int ModID { get; set; }
         public virtual Download Download { get; set; }
 
+        [Required]
+        public Guid OwnerID { get; set; }
+
         [MaxLength(50, ErrorMessage = "You have reached the max number of characters.")]
         public string Category { get; set; }
 

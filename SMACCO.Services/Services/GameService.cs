@@ -11,19 +11,19 @@ namespace SMACCO.Services.Services
 {
     public class GameService
     {
-        // private readonly Guid _userID;
+        private readonly Guid _userID;
 
-        //public NoteService(Guid userID)
-        //{
-        //  _userID = userID
-        //}
+        public GameService(Guid userID)
+        {
+            _userID = userID;
+        }
 
         public bool CreateGame(GameCreate model)
         {
             var entity =
                 new Game()
                 {
-                    //OwnerID or AdminID
+                    OwnerID = _userID,
                     GameName = model.GameName,
                     IsOwned = model.IsOwned,
                     LastPatchUpdate = model.LastPatchUpdate
@@ -42,6 +42,7 @@ namespace SMACCO.Services.Services
                 var query =
                     sdx
                     .Games
+                    .Where(e => e.OwnerID == _userID)
                     .Select(
                         e =>
                         new GameListItem
@@ -64,7 +65,7 @@ namespace SMACCO.Services.Services
                 var entity =
                     sdx
                     .Games
-                    .Single(e => e.GameID == id);  //&& OwnerID == _userID)
+                    .Single(e => e.GameID == id && e.OwnerID == _userID);
                 return
                     new GameDetails
                     {
@@ -83,7 +84,7 @@ namespace SMACCO.Services.Services
                 var entity =
                     sdx
                     .Games
-                    .Single(e => e.GameID == model.GameID); //&&OwnerID == _userID
+                    .Single(e => e.GameID == model.GameID && e.OwnerID == _userID);
                 
                 entity.GameName = model.GameName;
                 entity.IsOwned = model.IsOwned;
@@ -100,7 +101,7 @@ namespace SMACCO.Services.Services
                 var entity =
                     sdx
                     .Games
-                    .Single(e => e.GameID == gameID); //OwnerID == _userID
+                    .Single(e => e.GameID == gameID && e.OwnerID == _userID);
 
                 sdx.Games.Remove(entity);
 
