@@ -16,6 +16,9 @@ namespace SMACCO.Data.Entities
         [Required]
         [Display(Name = "Pack Name")]
         public string PackName { get; set; }
+        
+        [Required]
+        public Guid OwnerID { get; set; }
 
         [MaxLength(10000, ErrorMessage ="You have reached the max number of characters.")]
         public string Description { get; set; }

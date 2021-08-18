@@ -15,7 +15,10 @@ namespace SMACCO.Data.Entities
         [Required]
         [Display(Name ="Game Name")]
         public string GameName { get; set; }
-        
+
+        [Required]
+        public Guid OwnerID { get; set; }
+
         [Required]
         [Display(Name = "Is Owned?")]
         public bool IsOwned { get; set; }
