@@ -21,6 +21,11 @@ namespace SMACCO.Controllers.CustomDataControllers
         }
 
         // Get: Game/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(GameCreate model)
@@ -29,23 +34,13 @@ namespace SMACCO.Controllers.CustomDataControllers
             {
                 return View(model);
             }
+
             var userID = Guid.Parse(User.Identity.GetUserId());
             var service = new GameService(userID);
 
             service.CreateGame(model);
 
             return RedirectToAction("Index");
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(GameCreate model)
-        {
-            if (ModelState.IsValid)
-            {
-
-            }
-            return View(model);
         }
     }
 }
