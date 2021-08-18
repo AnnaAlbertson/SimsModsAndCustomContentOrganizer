@@ -1,4 +1,6 @@
-﻿using SMACCO.Models.GameModels;
+﻿using Microsoft.AspNet.Identity;
+using SMACCO.Models.GameModels;
+using SMACCO.Services.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +14,8 @@ namespace SMACCO.Controllers.CustomDataControllers
         // GET: Game/Index
         public ActionResult Index()
         {
+            var userID = Guid.Parse(User.Identity.GetUserId());
+            var service = new GameService(userID);
             var model = new GameListItem[0];
             return View(model);
         }
