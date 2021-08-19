@@ -26,12 +26,12 @@ C:\SimsOrganizer\SMACCO.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\SimsOrganizer\SMACCO.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\SimsOrganizer\SMACCO.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.csprojAssemblyReference.cache
+C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.InitialCreate.resources
+C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.DownloadUpdateMigration.resources
+C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.FirstMigration.resources
+C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.AddedGuidOwnerID.resources
+C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.csproj.GenerateResource.cache
 C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.csproj.CoreCompileInputs.cache
 C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.csproj.CopyComplete
 C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.dll
 C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.pdb
-C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.InitialCreate.resources
-C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.csproj.GenerateResource.cache
-C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.DownloadUpdateMigration.resources
-C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.FirstMigration.resources
-C:\SimsOrganizer\SMACCO.Data\obj\Debug\SMACCO.Data.Migrations.AddedGuidOwnerID.resources

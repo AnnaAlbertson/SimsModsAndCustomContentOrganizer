@@ -16,7 +16,7 @@ namespace SMACCO.Controllers.CustomDataControllers
         {
             var userID = Guid.Parse(User.Identity.GetUserId());
             var service = new GameService(userID);
-            var model = new GameListItem[0];
+            var model = service.GetGames();
             return View(model);
         }
 

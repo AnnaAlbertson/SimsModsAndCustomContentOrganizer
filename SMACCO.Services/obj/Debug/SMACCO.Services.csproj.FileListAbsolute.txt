@@ -21,6 +21,12 @@ C:\SimsOrganizer\SMACCO.Services\bin\Debug\EntityFramework.dll
 C:\SimsOrganizer\SMACCO.Services\bin\Debug\EntityFramework.SqlServer.dll
 C:\SimsOrganizer\SMACCO.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\SimsOrganizer\SMACCO.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Data.dll
+C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Models.dll
+C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Data.pdb
+C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Data.dll.config
+C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Models.pdb
+C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Models.dll.config
 C:\SimsOrganizer\SMACCO.Services\bin\Debug\EntityFramework.xml
 C:\SimsOrganizer\SMACCO.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\SimsOrganizer\SMACCO.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
@@ -30,9 +36,3 @@ C:\SimsOrganizer\SMACCO.Services\obj\Debug\SMACCO.Services.csproj.CoreCompileInp
 C:\SimsOrganizer\SMACCO.Services\obj\Debug\SMACCO.Services.csproj.CopyComplete
 C:\SimsOrganizer\SMACCO.Services\obj\Debug\SMACCO.Services.dll
 C:\SimsOrganizer\SMACCO.Services\obj\Debug\SMACCO.Services.pdb
-C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Data.dll
-C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Models.dll
-C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Data.pdb
-C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Data.dll.config
-C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Models.pdb
-C:\SimsOrganizer\SMACCO.Services\bin\Debug\SMACCO.Models.dll.config
